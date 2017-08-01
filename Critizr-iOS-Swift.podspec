@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name         = "Critizr-ios"
+s.name         = "Critizr-iOS-Swift"
 s.version      = "2.0.0"
 s.summary      = "Donne accès à l'ensemble des fonctionnalités Critizr pour vos applications iOS."
 s.description  = "Le SDK iOS vous permet :
