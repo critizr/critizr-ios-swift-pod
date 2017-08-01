@@ -15,7 +15,7 @@ s.author             = { "Guillaume Boufflers" => "guillaume.boufflers@critizr.c
 
 s.platform     = :ios
 s.source       = { :git => "https://github.com/critizr/critizr-ios-swift-pod.git", :tag => "2.0.0" }
-s.vendored_frameworks = "Critizr.framework"
+s.vendored_frameworks = "critizr_sdk_swift.framework"
 s.requires_arc = true
 
 end
