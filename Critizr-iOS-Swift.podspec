@@ -14,7 +14,7 @@ s.screenshots  = "http://developers.critizr.com/images/illustrations/sdk_ios.svg
 s.author             = { "Guillaume Boufflers" => "guillaume.boufflers@critizr.com" }
 
 s.platform     = :ios
-s.source       = { :git => "https://github.com/critizr/critizr-ios-swift-pod.git" }
+s.source       = { :git => "https://github.com/critizr/critizr-ios-swift-pod.git", :tag => '2.0.0'}
 
 s.ios.deployment_target = '8.0'
 
