@@ -1,3 +1,0 @@
-framework module critizr_sdk_swift {
-    header "critizr_sdk_swift-Swift.h"
-}
