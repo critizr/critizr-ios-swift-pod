@@ -1,3 +1,10 @@
 framework module critizr_sdk_swift {
+  umbrella header "critizr_sdk_swift.h"
+
+  export *
+  module * { export * }
+}
+
+module critizr_sdk_swift.Swift {
     header "critizr_sdk_swift-Swift.h"
 }

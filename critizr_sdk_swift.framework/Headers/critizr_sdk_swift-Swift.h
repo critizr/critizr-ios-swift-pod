@@ -132,31 +132,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_MSG(...) __attribute__((deprecated(__VA_ARGS__)))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
-@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
-@class UIViewController;
-
-SWIFT_CLASS("_TtC17critizr_sdk_swift10CritizrSDK")
-@interface CritizrSDK : NSObject
-@property (nonatomic, strong) UIViewController * _Nullable uiViewcontroller;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CritizrSDK * _Nonnull sharedInstance;)
-+ (CritizrSDK * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (void)openStoreLocatorWithViewController:(UIViewController * _Nonnull)viewController parameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters;
-- (void)giveFeedbackWithViewController:(UIViewController * _Nonnull)viewController placeId:(NSString * _Nonnull)placeId parameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters;
-- (void)giveFeedbackWithViewController:(UIViewController * _Nonnull)viewController deepLink:(NSString * _Nonnull)deepLink;
-- (void)getPlaceRatingWithPlaceId:(NSString * _Nonnull)placeId;
-@end
-
-
-@interface CritizrSDK (SWIFT_EXTENSION(critizr_sdk_swift))
-@end
-
-
-@interface CritizrSDK (SWIFT_EXTENSION(critizr_sdk_swift))
-@end
-
 #pragma clang diagnostic pop
