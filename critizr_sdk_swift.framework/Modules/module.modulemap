@@ -7,4 +7,5 @@ framework module critizr_sdk_swift {
 
 module critizr_sdk_swift.Swift {
     header "critizr_sdk_swift-Swift.h"
+    requires objc
 }

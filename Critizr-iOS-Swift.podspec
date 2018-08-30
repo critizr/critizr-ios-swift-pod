@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "Critizr-iOS-Swift"
-s.version      = "2.0.1"
+s.version      = "2.0.2"
 s.summary      = "Donne accès à l'ensemble des fonctionnalités Critizr pour vos applications iOS."
 s.description  = "Le SDK iOS vous permet :
 D’ouvrir une interface d’envoi de feedbacks pour un point de vente donné
@@ -14,7 +14,7 @@ s.screenshots  = "http://developers.critizr.com/images/illustrations/sdk_ios.svg
 s.author             = { "Guillaume Boufflers" => "guillaume.boufflers@critizr.com" }
 
 s.platform     = :ios
-s.source       = { :git => "https://github.com/critizr/critizr-ios-swift-pod.git", :tag => '2.0.1'}
+s.source       = { :git => "https://github.com/critizr/critizr-ios-swift-pod.git", :tag => '2.0.2'}
 
 s.ios.deployment_target = '8.0'
 
